@@ -1,5 +1,7 @@
 package com.pluralsight;
 
+import java.util.ArrayList;
+
 public class Product {
     private int id;
     private String name;
@@ -8,8 +10,7 @@ public class Product {
         this.id = id;
         this.name = name;
         this.price = price;
-    }
-    public int getId() {
+    }  public int getId() {
         return this.id;
     }
     public String getName() {
